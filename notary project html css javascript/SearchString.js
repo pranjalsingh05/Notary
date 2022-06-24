@@ -1,6 +1,6 @@
 function loadBook(filename, displayName) {
     let currentBook = "";
-    let url = "C:\Users\jyoti\notary project html css javascript\books" + filename;
+    let url = "\books" + filename;
 
     //reset our UI
     document.getElementById("fileName").innerHTML = displayName;
